@@ -11,12 +11,7 @@ COPY assets/berget-icon-black.svg /app/client/dist/assets/
 COPY assets/berget-icon-white.svg /app/client/dist/assets/
 
 # Copy font files
-COPY assets/fonts/dm-sans.css /app/client/dist/assets/fonts/
-COPY assets/fonts/dm-sans-regular.woff2 /app/client/dist/assets/fonts/
-COPY assets/fonts/dm-sans-500.woff2 /app/client/dist/assets/fonts/
-COPY assets/fonts/dm-sans-700.woff2 /app/client/dist/assets/fonts/
-COPY assets/fonts/ovo.css /app/client/dist/assets/fonts/
-COPY assets/fonts/ovo-regular.woff2 /app/client/dist/assets/fonts/
+COPY assets/fonts/* /app/client/dist/assets/fonts/
 
 # Copy our manifest file
 COPY manifest.webmanifest /app/client/dist/manifest.webmanifest
